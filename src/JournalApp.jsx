@@ -1,9 +1,13 @@
 import React from 'react'
+import { AppTheme } from './theme/';
+import { AppRouters } from './router/AppRouters.jsx'
 
 const JournalApp = () => {
 
   return (
-    <div>App</div>
+    <AppTheme>
+      <AppRouters />
+    </AppTheme>
   )
 }
 

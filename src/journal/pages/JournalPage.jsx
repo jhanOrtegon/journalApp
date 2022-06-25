@@ -1,8 +1,14 @@
-import React from 'react'
+import { Typography } from '@mui/material'
+import { MailLockOutlined } from '@mui/icons-material'
+import JournalLayout from './../layout/JournalLayout';
 
 const JournalPage = () => {
     return (
-        <div>JournalPage</div>
+        <>
+            <JournalLayout>
+
+            </JournalLayout>
+        </>
     )
 }
 
